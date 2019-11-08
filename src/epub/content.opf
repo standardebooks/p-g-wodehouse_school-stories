@@ -66,10 +66,16 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Fulleylove</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/no92032610</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Susan L. Shell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Shell, Susan L.</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-2">Charles Franks</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Franks, Charles</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">B. Timothy Keith</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Keith, B. Timothy</meta>
 		<meta property="se:url.homepage" refines="#producer-1">http://astart.ca</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
@@ -93,7 +99,7 @@
 		<item href="text/author.xhtml" id="author.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/bradshaws-little-story.xhtml" id="bradshaws-little-story.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/harrison's-slight-error.xhtml" id="harrison's-slight-error.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/harrisons-slight-error.xhtml" id="harrisons-slight-error.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/how-payne-bucked-up.xhtml" id="how-payne-bucked-up.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/how-pillingshot-scored.xhtml" id="how-pillingshot-scored.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -125,7 +131,7 @@
 		<itemref idref="a-shocking-affair.xhtml"/>
 		<itemref idref="author.xhtml"/>
 		<itemref idref="bradshaws-little-story.xhtml"/>
-		<itemref idref="harrison's-slight-error.xhtml"/>
+		<itemref idref="harrisons-slight-error.xhtml"/>
 		<itemref idref="how-payne-bucked-up.xhtml"/>
 		<itemref idref="how-pillingshot-scored.xhtml"/>
 		<itemref idref="l-affaire-uncle-john.xhtml"/>
