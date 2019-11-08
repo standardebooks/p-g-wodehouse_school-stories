@@ -18,14 +18,33 @@ section > header [epub|type~="epigraph"]{
 }
 
 @supports(display: table){
-section > header [epub|type~="epigraph"]{
-	display: table;
-}
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
 }
 
 [epub|type~="epigraph"] cite{
-font-style: normal;
-font-variant: small-caps;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:verse"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:verse"] + p{
+	text-indent: 0;
 }
 
 [epub|type~="z3998:drama"]{
@@ -87,4 +106,6 @@ font-variant: small-caps;
 section[epub|type~="z3998:scene"] > p{
 	margin: 1em auto;
 	width: 75%;
+	text-indent: 0;
+
 }
