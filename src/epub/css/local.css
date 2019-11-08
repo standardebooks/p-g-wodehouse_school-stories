@@ -21,6 +21,7 @@ section > header [epub|type~="epigraph"]{
 section > header [epub|type~="epigraph"]{
 	display: table;
 }
+}
 
 [epub|type~="epigraph"] cite{
 font-style: normal;
