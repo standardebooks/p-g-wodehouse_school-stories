@@ -54,31 +54,27 @@ section > header [epub|type~="epigraph"]{
 }
 
 p span.i1{
-text-indent: -1em;
-padding-left: 2em;
+	text-indent: -1em;
+	padding-left: 2em;
 }
 
 [epub|type~="z3998:poem"] p{
-text-align: left;
-text-indent: 0;
+	text-align: left;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:poem"] p > span{
-display: block;
-text-indent: -1em;
-padding-left: 1em;
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
 }
 
 [epub|type~="z3998:poem"] p > span + br{
-display: none;
-}
-
-[epub|type~="z3998:poem"] p + p{
-margin-top: 1em;
+	display: none;
 }
 
 [epub|type~="z3998:poem"] + p{
-text-indent: 0;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:drama"]{
@@ -158,7 +154,6 @@ footer{
 }
 
 [epub|type~="z3998:sender"],
-[epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
