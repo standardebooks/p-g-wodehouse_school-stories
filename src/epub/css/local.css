@@ -11,15 +11,14 @@ abbr.era{
 	text-align: center;
 }
 
-span[epub|type~="z3998:subtitle"]{
-	display: block;
-	font-style: italic;
-	font-weight: normal;
-}
-
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
+}
+
+[epub|type~="epigraph"] cite{
+	font-style: normal;
+	font-variant: small-caps;
 }
 
 section > header [epub|type~="epigraph"]{
@@ -29,39 +28,24 @@ section > header [epub|type~="epigraph"]{
 	text-align: left;
 }
 
-@supports(display: table){
-	section > header [epub|type~="epigraph"]{
-		display: table;
-	}
+[epub|type~="z3998:letter"] header{
+	text-align: right;
 }
 
-[epub|type~="epigraph"] cite{
-	font-style: normal;
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:verse"] p{
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-indent: 0;
 	text-align: left;
-	text-indent: 0;
-}
-
-[epub|type~="z3998:verse"] p > span{
-	display: block;
-	text-indent: -1em;
-	padding-left: 1em;
-}
-
-[epub|type~="z3998:verse"] p > span + br{
-	display: none;
-}
-
-[epub|type~="z3998:verse"] + p{
-	text-indent: 0;
-}
-
-p span.i1{
-	text-indent: -1em;
-	padding-left: 2em;
 }
 
 [epub|type~="z3998:poem"] p{
@@ -139,14 +123,23 @@ p span.i1{
 	font-variant: all-small-caps;
 }
 
-section[epub|type~="z3998:scene"] > p{
-	margin: 1em auto;
-	width: 75%;
+[epub|type~="z3998:verse"] p{
+	text-align: left;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:letter"] header{
-	text-align: right;
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:verse"] + p{
+	text-indent: 0;
 }
 
 footer{
@@ -154,22 +147,29 @@ footer{
 	text-align: right;
 }
 
-[epub|type~="z3998:salutation"] + p,
-[epub|type~="z3998:letter"] header + p{
-	text-indent: 0;
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
 }
 
-[epub|type~="z3998:sender"],
-[epub|type~="z3998:salutation"]{
-	font-variant: small-caps;
-}
-
-[epub|type~="z3998:postscript"]{
-	margin-top: 1em;
+section[epub|type~="z3998:scene"] > p{
+	margin: 1em auto;
+	width: 75%;
 	text-indent: 0;
-	text-align: left;
 }
 
 .signature{
 	font-variant: small-caps;
+}
+
+span[epub|type~="z3998:subtitle"]{
+	display: block;
+	font-style: italic;
+	font-weight: normal;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
 }
