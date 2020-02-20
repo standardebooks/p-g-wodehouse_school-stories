@@ -5,9 +5,8 @@ abbr.era{
 	font-variant: all-small-caps;
 }
 
-#a-corner-in-lines blockquote:nth-of-type(1){
+#a-corner-in-lines blockquote:first-of-type{
 	font-variant: small-caps;
-	margin: 1em 0 1em 0;
 	text-align: center;
 }
 
