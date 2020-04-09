@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="the-odd-trick.xhtml">
+		<ignore>
+			<code>t-030</code>
+			<reason>lbw stands for Leg Before Wicket and is always lowercase, without periods.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
