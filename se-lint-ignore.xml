@@ -6,4 +6,10 @@
 			<reason>lbw stands for Leg Before Wicket and is always lowercase, without periods.</reason>
 		</ignore>
 	</file>
+	<file path="work.xhtml">
+		<ignore>
+			<code>t-041</code>
+			<reason>Punctuation is correct as printed.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
