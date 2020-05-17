@@ -40,7 +40,7 @@
 		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">A collection of Wodehouse’s school stories about the lives and adventures of schoolboys in the early 1900s.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;School Stories&lt;/i&gt; is a collection of humorous short stories by P. G. Wodehouse that feature the trials, tribulations and adventures of the denizens of the turn-of-the-century English boarding school.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;School Stories&lt;/i&gt; is a collection of humorous short stories by &lt;a href="https://standardebooks.org/ebooks/p-g-wodehouse"&gt;&lt;abbr&gt;P. G.&lt;/abbr&gt; Wodehouse&lt;/a&gt; that feature the trials, tribulations and adventures of the denizens of the turn-of-the-century English boarding school.&lt;/p&gt;
 			&lt;p&gt;First published in schoolboy magazines starting in 1901, the stories originally appeared in publications like &lt;i&gt;The Captain&lt;/i&gt; and &lt;i&gt;Public School Magazine&lt;/i&gt;. Some were also later collected into books. These stories, written more than a decade before he moved on to his more famous characters like Jeeves and Wooster, represent Wodehouse’s first magazine sales and showcase his early career. While some of these stories are definitely of a moment, they’re filled with delightful bits that would be instantly recognizable to students and teachers of any age. Indeed, the stories experienced a bit of a resurgence in the latter part of the 20th century, and remain a worthy part of Wodehouse’s canon.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
