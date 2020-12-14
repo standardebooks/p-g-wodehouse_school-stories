@@ -5,9 +5,10 @@ abbr.era{
 	font-variant: all-small-caps;
 }
 
-#a-corner-in-lines blockquote:first-of-type{
+#a-corner-in-lines blockquote:first-of-type p{
 	font-variant: small-caps;
 	text-align: center;
+	text-indent: 0;
 }
 
 [epub|type~="epigraph"]{
