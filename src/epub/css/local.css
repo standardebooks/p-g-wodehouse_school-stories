@@ -51,8 +51,8 @@ article > header [epub|type~="epigraph"]{
 
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
-	text-indent: 0;
 	text-align: initial;
+	text-indent: 0;
 }
 
 .enclosure{
@@ -104,9 +104,9 @@ p span.i1{
 }
 
 [epub|type~="z3998:drama"] td{
-	vertical-align: top;
 	padding: .5em;
 	text-indent: 0;
+	vertical-align: top;
 }
 
 [epub|type~="z3998:drama"] td:last-child{
@@ -130,8 +130,8 @@ p span.i1{
 
 section[epub|type~="z3998:scene"] > p{
 	margin: 1em auto;
-	width: 75%;
 	text-indent: 0;
+	width: 75%;
 }
 
 [epub|type~="z3998:stage-direction"]{
