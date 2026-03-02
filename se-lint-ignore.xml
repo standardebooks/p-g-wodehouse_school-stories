@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="shields-and-the-cricket-cup.xhtml">
-		<ignore>
-			<code>t-010</code>
+		<ignore code="t-010">
 			<reason>Matched text is not a time.</reason>
 		</ignore>
 	</file>
 	<file path="the-odd-trick.xhtml">
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>lbw stands for Leg Before Wicket and is always lowercase, without periods.</reason>
 		</ignore>
 	</file>
 	<file path="work.xhtml">
-		<ignore>
-			<code>t-041</code>
+		<ignore code="t-041">
 			<reason>Punctuation is correct as printed.</reason>
 		</ignore>
 	</file>
